@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*HTML 5 support - Sets new HTML 5 tags to display:block so browsers know how to render the tags properly. */
+header, section, footer, aside, nav, article, figure {
+	display: block;
+}
+
+* {
+	vertical-align: baseline;
+	font-weight: inherit;
+	font-family: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	border: 0 none;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: source-sans-pro, "Gill Sans", "Gill Sans MT", "Myriad Pro", Arial, sans-serif;
+	color: #666;
+}
+
+section {
+    width: 60%;
+    margin: 3em auto;
+    background: #F00;
+display: flex;
+/*flex-direction: row-reverse;*/
+flex-wrap: wrap;
+    
+}
+
+article {
+    background: #FF0;
+    border: solid 1px #888;
+    flex: 1 1 auto;
+}
+
+article p {
+    font-size: 1em;
+    text-align: center;
+    padding: .1em;
+}
+
+section article:nth-child(2){
+    order: -1;
+}
+
+section article:nth-child(1){
+flex-grow: 3;
+}

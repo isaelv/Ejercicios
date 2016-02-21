@@ -1,0 +1,19 @@
+body {
+    font-family: "trebuchet ms", georgia, sans-serif;
+    font-size: 100%;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: normal;
+    color: #f00;
+    background-color: #e4e3fd;
+    padding: 20px;
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+}
+p {
+    line-height: 24px;
+}
+

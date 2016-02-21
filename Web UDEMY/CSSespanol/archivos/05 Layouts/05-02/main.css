@@ -1,0 +1,26 @@
+div {
+    width: 200px; height: 200px;
+    background-color: #888;
+    margin: 5px;
+}
+#redes{
+    background-color: #f00;
+    width: 100px;
+    height: 30px;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+
+#uno{
+    background-color: #f00;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+#dos{
+    background-color: #0f0;
+}
+#tres{
+    background-color: #00f;
+}

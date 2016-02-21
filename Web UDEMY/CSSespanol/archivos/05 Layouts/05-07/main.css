@@ -1,0 +1,17 @@
+#contenedor {
+    background-color: #CCC;
+    padding: 10px;
+    overflow: auto;
+}
+
+#uno {
+    background-color: #F00;
+    width: 150px; height: 150px;
+    float: left;
+}
+
+#dos {
+    background-color: #0F0;
+    width: 150px; height: 150px;
+    float: right;
+}

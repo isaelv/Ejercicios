@@ -1,0 +1,28 @@
+#verde {
+    color: #0F0;
+}
+
+.rojo {
+    color: #F00;
+}
+
+body {
+    font-family: arial;
+}
+
+div {
+    background-color: #ebfffc;
+}
+
+h1 {
+    color: #00F;
+}
+
+p {
+    color: #888;
+}
+
+#footer {
+    background-color: #FF0;
+}
+

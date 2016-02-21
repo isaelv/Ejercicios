@@ -1,0 +1,11 @@
+div {
+    width: 200px;
+    height: 20000px;
+    border: 20px solid rgba(0, 0, 255, .5);
+    margin: 1em auto; padding: 20px;
+    background: url(../img/estrella.svg) 0px/auto round content-box fixed gray;
+}
+
+/*
+background: background-image, background-position, background-size, background-repeat, background-origin, background-clip, background-attachment
+*/

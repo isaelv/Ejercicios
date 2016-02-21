@@ -1,0 +1,19 @@
+div {
+    width: 200px; height: 200px;
+    background-color: #888;
+}
+
+#uno {
+    background-color: #F00;
+    float: left;
+}
+
+#dos {
+    background-color: #0F0;
+    float: left;
+}
+
+#tres {
+    background-color: #00F;
+    clear: both;   
+}

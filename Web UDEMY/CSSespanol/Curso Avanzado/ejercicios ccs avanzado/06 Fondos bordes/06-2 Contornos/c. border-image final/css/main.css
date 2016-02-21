@@ -1,0 +1,13 @@
+div {
+    width: 200px;
+    height: 200px;
+    background-color: #EEE;
+    margin: 8em auto; padding: 20px;
+    border: 20px solid rgba(0, 0, 255, 1);
+    border-image-source: url(../img/border.png);
+    border-image-repeat: round;
+    border-image-slice: 30;
+    border-image-width: 20px;
+    border-image-outset: 10px;
+    
+}

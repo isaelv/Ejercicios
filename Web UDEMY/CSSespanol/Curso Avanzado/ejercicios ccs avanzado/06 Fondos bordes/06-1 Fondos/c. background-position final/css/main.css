@@ -1,0 +1,8 @@
+div {
+    width: 200px;
+    height: 200px;
+    margin: 1em auto;
+    border: 1px solid;
+    background: #EEE url(../img/estrella.svg) no-repeat;
+    background-position: top 20px left 60px;
+}

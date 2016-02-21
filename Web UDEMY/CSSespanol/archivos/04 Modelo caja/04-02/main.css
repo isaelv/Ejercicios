@@ -1,0 +1,13 @@
+#contenedor{
+    width: 500px;
+    height: 200px;
+    background-color: #caf1fa;
+}
+#contenido{
+    width: 400px;
+    height: 150px;
+    border: 5px solid;
+    padding: 20px;
+    background-color: #facfed;
+    
+}

@@ -1,0 +1,24 @@
+div {
+    width: 200px; height: 200px;
+    background-color: #888;
+    //position: relative;
+    margin: -50px;
+}
+
+#uno {
+    background-color: #F00;
+    left: 50px; 
+    z-index: 3;
+    position: relative;
+}
+
+#dos {
+    background-color: #0F0;
+    top: -70px;
+}
+
+#tres {
+    background-color: #00F;
+    top: -300px; left: 120px;
+    z-index: 2;
+}

@@ -1,0 +1,9 @@
+div {
+    width: 200px;
+    height: 200px;
+    border: 20px solid rgba(0, 0, 255, .5);
+    margin: 1em auto; padding: 20px;
+    background: url(../img/estrella.svg) no-repeat, url(../img/playa.jpg) no-repeat;
+    background-size: auto, cover;
+    background-position: center center, center center;
+}

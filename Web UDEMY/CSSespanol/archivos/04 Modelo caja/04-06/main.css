@@ -1,0 +1,16 @@
+div {
+    width: 150px; height: 150px;
+    background-color: #ffe7f4;
+    margin: 20px; padding: 10px;
+}
+#uno{   
+    background:#0f0 url(img/logo.png) no-repeat 50% 100%;
+    
+}
+#dos{
+    margin-top: 40px;
+    background-color: #f00;
+}
+#tres{
+    border: 5px #f00 solid;
+}
