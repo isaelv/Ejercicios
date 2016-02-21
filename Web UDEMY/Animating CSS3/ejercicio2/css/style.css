@@ -1,0 +1,35 @@
+#box
+{
+	position: relative;
+	top: 40px;
+	width: 500px;
+	height: 400px;
+	background-color: #afd3ef;
+	border: 3px solid #032e4f;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#bird
+{
+	position: absolute;
+	left: 170px;
+	top: 90px;
+	
+	/*
+	transform:rotate(45deg);
+	transform-origin: 50% 100%;
+	*/
+	
+	transform:scale(0.2);
+
+	transition:all 1s;
+}
+
+#box:hover #bird
+{
+	/*
+	transform:translate(100px,-50px);
+	transform:rotate(-45deg);*/
+	transform:scale(1.5);
+}
