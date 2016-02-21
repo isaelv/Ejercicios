@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Degradados</title>
+</head>
+<body>
+    <canvas id="gradiente" width="400px" height="400px" style="border:2px solid #000">
+        <p>Tu navegador no soporta canvas.</p>
+    </canvas>
+    <script type="text/javascript">
+        var c=document.getElementById("gradiente");
+        var cxt=c.getContext("2d");
+        
+        var grd=cxt.createLinearGradient(0,0,400,400);
+        
+        grd.addColorStop(0,"white");
+        grd.addColorStop(0.25,"red");
+        grd.addColorStop(0.5,"green");
+        grd.addColorStop(0.75,"blue");
+        grd.addColorStop(1,"black");
+        
+        cxt.fillStyle=grd;
+        cxt.fillRect(0,0,400,400);
+        
+        
+    </script>
+</body>
+</html>

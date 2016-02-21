@@ -1,0 +1,14 @@
+#V1.0
+CACHE MANIFEST
+manifiesto.html
+estilos.css
+img/image.png
+scripts/miscript.js
+
+NETWORK:
+log.php
+visitas.php
+
+FALLBACK:
+images/imagen.png
+archivo.png
